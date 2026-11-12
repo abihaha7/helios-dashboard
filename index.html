@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="dark"><title>Helios Investments · Dashboard Demo</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="dark"><title>Helios Investments · Sign in</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -23,7 +23,7 @@ html,body{width:1200px;height:900px;background:#070507;overflow:hidden;font-fami
 .cm{color:#85708300;color:#8a7488;font-style:italic}.st{color:#9be7c4}.kw{color:#c9a0ff}.nm{color:#ffd08a}.fn{color:#f2b8ec}
 #code,#cc,#cg,#toast{font-family:"DejaVu Sans Mono",Menlo,Consolas,monospace}
 .nv{border-color:transparent!important;background:transparent;border-radius:14px}.nv::before{background:linear-gradient(90deg,#8b6f87,#4f3b4c 70%,rgba(40,30,38,.15))}
-
+ 
 .t,.ico,.lg,.grp{pointer-events:none}.btn,#hit{pointer-events:auto}
 html,body{width:100%;height:100%}html{background:#070507;color-scheme:dark}
 :root{box-sizing:border-box;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
@@ -40,7 +40,7 @@ body{position:relative;overflow:hidden;background:#070507}
 #aiT,#aiD{transition:opacity .25s}
 @keyframes fd{from{opacity:0;transform:translateY(6px)}}
 #ring{animation:br 4.5s ease-in-out infinite}#ring2{animation:br 4.5s ease-in-out infinite reverse}@keyframes br{50%{transform:scale(1.05)}}
-
+ 
 .tile{pointer-events:auto;cursor:pointer}
 .vw{position:absolute;left:326px;top:231px;width:799px;height:588px;border-radius:20px;background:linear-gradient(165deg,#161116,#09070a);border:1px solid rgba(255,255,255,.1);box-shadow:0 18px 40px rgba(0,0,0,.5);padding:26px 28px;display:none;z-index:30;overflow:auto;font-size:14px}.vw.show{display:block;animation:fd .4s both}
 .vs{color:#a99ea8;font-size:12px;margin-top:4px}.kr{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}.k4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
@@ -57,7 +57,7 @@ input[type=range]{width:100%;accent-color:#d79bd0}details.fq{background:#0b090b;
 #dot{position:absolute;left:884px;top:100px;width:9px;height:9px;border-radius:50%;background:#ff6b86;box-shadow:0 0 8px #ff6b86;z-index:12;pointer-events:none}
 </style></head><body><div id="st">
 <div id="app"></div>
-
+ 
 <div class="grp" id="gS" style="animation-delay:.15s">
  <div class="card" style="left:75px;top:81px;width:235px;height:738px;background:#050405;border-radius:18px"></div>
  <div class="t" style="left:90px;top:107px;font-size:17px;font-weight:600;letter-spacing:.3px"><span style="display:inline-block;width:17px;height:17px;border-left:4px solid #f1e7ef;border-right:4px solid #f1e7ef;position:relative;vertical-align:-2px;margin-right:9px"><i style="position:absolute;left:0;right:0;top:5px;height:4px;background:#f1e7ef"></i></span>Helios Investments</div>
@@ -71,17 +71,17 @@ input[type=range]{width:100%;accent-color:#d79bd0}details.fq{background:#0b090b;
  <svg class="ico" style="left:105px;top:737px" width="19" height="19" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3"/><path d="M10 1.5v2.2M10 16.3v2.2M1.5 10h2.2M16.3 10h2.2M4 4l1.6 1.6M14.4 14.4L16 16M4 16l1.6-1.6M14.4 5.6L16 4"/></svg><div class="t" style="left:138px;top:739px;font-size:16px;color:#e6dce4">Settings</div>
  <svg class="ico" style="left:105px;top:775px" width="19" height="19" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="4"/><path d="M7 7.5l3-1.5v8M8 14h4"/></svg><div class="t" style="left:138px;top:777px;font-size:16px;color:#e6dce4">Support</div>
 </div>
-
+ 
 <div class="grp" id="gH" style="animation-delay:.35s">
  <div class="t" style="left:326px;top:98px;font-size:26px;font-weight:400">Welcome, <span id="wn" style="color:#e7b3df">Abiha</span></div>
  <div class="t" style="left:326px;top:130px;font-size:12px;color:#d2c8d0">Here’s your investment portfolio overview</div>
  <div class="btn soft" id="bell" style="left:854px;top:97px;width:42px;height:42px"><svg class="ico" width="18" height="18" viewBox="0 0 20 20"><path d="M5 14V9a5 5 0 0110 0v5l1.5 2h-13zM8.5 18h3"/></svg></div>
  <div class="btn soft" id="gear" style="left:897px;top:97px;width:42px;height:42px"><svg class="ico" width="18" height="18" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3"/><circle cx="10" cy="10" r="7.5"/></svg></div>
  <div id="av" class="a" style="left:957px;top:97px;width:42px;height:42px;border-radius:50%;border:1.5px solid rgba(255,255,255,.4);background:linear-gradient(145deg,#d3a0cb,#5d4259);display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:600;color:#fff">AH</div>
- <div id="pn" class="t" style="left:1009px;top:104px;font-size:13px;font-weight:500">Abiha Hameed</div>
- <div id="ph" class="t" style="left:1009px;top:122px;font-size:10px;color:#c3b9c1">@abihacodes</div>
+ <div id="pn" class="t" style="max-width:122px;overflow:hidden;text-overflow:ellipsis;left:1009px;top:104px;font-size:13px;font-weight:500">Abiha Hameed</div>
+ <div id="ph" class="t" style="max-width:122px;overflow:hidden;text-overflow:ellipsis;left:1009px;top:122px;font-size:10px;color:#c3b9c1">@abihacodes</div>
 </div>
-
+ 
 <div class="grp" id="gT" style="animation-delay:.5s">
  <div class="btn soft" id="tMarket" style="left:326px;top:173px;width:86px;height:42px">Market</div>
  <div class="btn soft" id="tWallet" style="left:416px;top:173px;width:73px;height:42px">Wallet</div>
@@ -90,7 +90,7 @@ input[type=range]{width:100%;accent-color:#d79bd0}details.fq{background:#0b090b;
  <svg class="ico" style="left:886px;top:185px" width="16" height="18" viewBox="0 0 16 18"><rect x="5" y="1" width="6" height="10" rx="3"/><path d="M2 8a6 6 0 0012 0M8 14v3"/></svg>
  
 </div>
-
+ 
 <div class="grp" id="gA" style="animation-delay:.65s">
  <div class="card" style="left:326px;top:231px;width:257px;height:120px;background:radial-gradient(190px 130px at 90% 0%,rgba(170,125,165,.6),transparent),radial-gradient(120px 90px at 10% 100%,rgba(90,60,88,.4),transparent),linear-gradient(165deg,#2b202b,#0a080a)"></div>
  <div class="t" style="left:341px;top:256px;font-size:17px">Total Holding</div>
@@ -105,7 +105,7 @@ input[type=range]{width:100%;accent-color:#d79bd0}details.fq{background:#0b090b;
  <div class="t" style="left:326px;width:257px;text-align:center;top:411px;font-size:11px;color:#b9aeb7;line-height:15px" id="aiD">Move beyond guesswork with AI-driven<br>investment insights tailored to your strategy.</div>
  <div class="btn" id="ai" style="left:383px;top:481px;width:143px;height:32px;border-radius:16px;border-color:transparent;font-size:13px;--a:1;box-shadow:0 0 calc(var(--g)*44px) calc(var(--g)*10px) rgba(246,170,236,calc(var(--g)*.85)),0 6px 18px rgba(170,110,165,.35)">Explore AI Insights</div>
 </div>
-
+ 
 <div class="grp" id="gW" style="animation-delay:.8s">
  <div class="card" style="left:598px;top:231px;width:251px;height:298px"></div>
  <div class="t" style="left:613px;top:251px;font-size:17px">Watchlist</div>
@@ -114,7 +114,7 @@ input[type=range]{width:100%;accent-color:#d79bd0}details.fq{background:#0b090b;
  <div class="btn" id="wLose" style="left:757px;top:287px;width:45px;height:30px;font-size:12.5px">Lose</div>
  <div class="a" id="wr" style="left:613px;top:327px;width:221px;height:196px"></div>
 </div>
-
+ 
 <div class="grp" id="gP" style="animation-delay:.95s">
  <div class="card" style="left:864px;top:231px;width:261px;height:298px"></div>
  <div class="t" style="left:879px;top:256px;font-size:17px">My Portfolio</div>
@@ -122,7 +122,7 @@ input[type=range]{width:100%;accent-color:#d79bd0}details.fq{background:#0b090b;
  <div class="btn" id="arr" style="left:1079px;top:248px;width:31px;height:32px"><svg class="ico" style="stroke:#fff;position:static" width="12" height="12" viewBox="0 0 12 12"><path d="M3 9l6-6M4 3h5v5"/></svg></div>
  <div id="tiles"></div>
 </div>
-
+ 
 <div class="grp" id="gC" style="animation-delay:1.1s">
  <div class="card" style="left:326px;top:545px;width:799px;height:274px"></div>
  <div class="t" style="left:341px;top:571px;font-size:17px">Portfolio Performance</div>
@@ -188,14 +188,14 @@ function nextIns(){ii=(ii+1)%INS.length;$('#aiT').style.opacity=$('#aiD').style.
 document.addEventListener('click',e=>{const b=e.target.closest('.btn');if(!b)return;b.classList.remove('fx');void b.offsetWidth;b.classList.add('fx');snd();const id=b.id;
  for(const g in G)if(G[g].includes(id))on(g,id);
  if(id=='per'||id=='chev')nextPer();else if(id=='ai')nextIns();else if(WK[('#'+id)])rowsTo(WK['#'+id]);else if(id[0]=='r'&&id!='rp'&&D['#'+id])setRange('#'+id)});
-
+ 
 const esc=x=>String(x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])),money=n=>'$'+n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
 const el=(id,h)=>{const d=document.createElement('div');d.id=id;if(h)d.innerHTML=h;st.appendChild(d);return d};
 const V=el('view');V.className='vw';const pop=el('pop'),ans=el('ans'),mg=el('msg'),dot=el('dot'),wel=el('wel');
 const cr=document.createElement('div');cr.className='t';cr.style.cssText='left:60px;top:851px;font-size:12px;color:#8a7488';cr.innerHTML='Designed &amp; built by <b style="color:#e7b3df">@abihacodes</b> · demo data, try every button';st.appendChild(cr);
 const q=document.createElement('input');q.id='q';q.placeholder='Ask helios.ai anything';q.autocomplete='off';st.appendChild(q);
-let U={},MT,AT,MKT='Stocks',POSTS=[{n:'Sara R.',t:'Just rebalanced toward tech. Thoughts?',c:12},{n:'Ahmed K.',t:'Dividend stocks vs growth for a 5 year horizon?',c:8},{n:'Maryam N.',t:'Loving the new AI insights card ✨',c:21}];
-function setU(n,i){n=(n||'').trim()||'Guest';i=(i||'').trim();if(i&&i[0]!='@')i='@'+i;U={name:n,id:i||'@'+n.toLowerCase().replace(/\s+/g,'')};$('#wn').textContent=n.split(/\s+/)[0];$('#pn').textContent=n;$('#ph').textContent=U.id;$('#av').textContent=n.split(/\s+/).map(w=>w[0]).join('').slice(0,2).toUpperCase();try{localStorage.setItem('helios_u',JSON.stringify(U))}catch(e){}}
+let U={},MT,AT,MKT='Stocks',POSTS=[{n:'Hira R.',t:'Just rebalanced toward tech. Thoughts?',c:12},{n:'Ahmed K.',t:'Dividend stocks vs growth for a 5 year horizon?',c:8},{n:'Maryam N.',t:'Loving the new AI insights card ✨',c:21}];
+function setU(n,i){n=(n||'').trim()||'Guest';i=(i||'').trim();if(i&&!i.includes('@'))i='@'+i;U={name:n,id:i||'@'+n.toLowerCase().replace(/\s+/g,'')};$('#wn').textContent=n.split(/\s+/)[0];$('#pn').textContent=n;$('#ph').textContent=U.id;{const w=n.split(/[\s._-]+/);$('#av').textContent=(w.length>1?w.map(x=>x[0]).join(''):n).slice(0,2).toUpperCase()}try{localStorage.setItem('helios_u',JSON.stringify(U))}catch(e){}}
 function msg(t){mg.textContent=t;mg.style.opacity=1;clearTimeout(MT);MT=setTimeout(()=>mg.style.opacity=0,2000)}
 const H=(t,s)=>`<div style="font-size:24px;font-weight:600">${t}</div><div class="vs">${s}</div>`;
 const AD={'3M':[2.1,-.8,3.4],'6M':[1.2,2.8,-1.4,3.1,.9,2.2],'1Y':[3.1,-1.2,2.4,4.8,-2.1,1.7,3.9,2.2,-.6,3.3,1.4,2.8]};
@@ -206,8 +206,8 @@ portfolio:()=>{const R=[['AAPL','Apple',104,1721.3],['AMZN','Amazon',12,2044.8],
 analysis:()=>H('Analysis','Performance and risk at a glance · demo data')+'<div class="k4">'+[['YTD return','+18.4%','g'],['Volatility','12.1%',''],['Sharpe ratio','1.42',''],['Max drawdown','−8.3%','r']].map(k=>`<div class="kc"><div class="vs">${k[0]}</div><div class="${k[2]}" style="font-size:26px;font-weight:600;margin-top:6px">${k[1]}</div></div>`).join('')+'</div><div class="rw" style="margin:22px 0 10px"><b>Monthly returns (%)</b><span>'+['3M','6M','1Y'].map(x=>`<button class="vb ${x=='1Y'?'on':''}" data-a="ar" data-k="${x}">${x}</button>`).join(' ')+'</span></div><div id="ab"></div>',
 market:()=>H('Market','Live-style overview · demo data')+'<div style="margin:16px 0 8px">'+Object.keys(MK).map(k=>`<button class="vb ${k==MKT?'on':''}" data-a="cat" data-k="${k}">${k}</button>`).join(' ')+'</div>'+MK[MKT].map(r=>`<div class="rw kc" style="margin-top:10px"><b>${r[0]}</b><span>${r[1]}</span><span class="${r[2][0]=='+'?'g':'r'}">${r[2]}</span></div>`).join(''),
 community:()=>H('Community','Ideas from other investors')+`<div class="rw" style="margin:16px 0"><input class="vi" id="pi" placeholder="Share something with the community…"><button class="vb on" data-a="post">Post</button></div>`+POSTS.map((p,i)=>`<div class="kc" style="margin-top:10px"><div class="rw"><div class="rw" style="justify-content:flex-start"><span style="width:34px;height:34px;border-radius:50%;background:linear-gradient(145deg,#d3a0cb,#5d4259);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600">${esc(p.n.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase())}</span><b>${esc(p.n)}</b></div><button class="vb ${p.l?'on':''}" data-a="like" data-i="${i}">♥ ${p.c+(p.l?1:0)}</button></div><div style="margin-top:8px;color:#ddd2db">${esc(p.t)}</div></div>`).join(''),
-settings:()=>H('Settings','Make it yours')+`<div style="margin-top:18px" class="vs">Your name</div><input class="vi" id="sn" value="${esc(U.name)}" style="margin-top:6px"><div style="margin-top:14px" class="vs">Your ID / handle</div><input class="vi" id="si" value="${esc(U.id)}" style="margin-top:6px"><div class="rw" style="margin-top:20px;justify-content:flex-start"><button class="vb on" data-a="save">Save profile</button><button class="vb" data-a="snd">Sound: ${window.MUTE?'Off':'On'}</button></div>`,
-support:()=>H('Support','We’re here to help')+['How do I change my name?|Open Settings and edit your name and ID, then tap Save profile.','Is this real money?|No. This is a design demo with made-up data, so nothing here is financial advice.','What does Explore AI Insights do?|It shows sample insights about your portfolio. Tap it again for the next one.'].map(f=>`<details class="fq"><summary>${f.split('|')[0]}</summary><p>${f.split('|')[1]}</p></details>`).join('')+`<div class="rw" style="margin-top:18px"><input class="vi" id="sm" placeholder="Write us a message…"><button class="vb on" data-a="send">Send</button></div>`,
+settings:()=>H('Settings','Make it yours')+`<div style="margin-top:18px" class="vs">Username</div><input class="vi" id="sn" value="${esc(U.name)}" style="margin-top:6px"><div style="margin-top:14px" class="vs">Email</div><input class="vi" id="si" value="${esc(U.id)}" style="margin-top:6px"><div class="rw" style="margin-top:20px;justify-content:flex-start"><button class="vb on" data-a="save">Save profile</button><button class="vb" data-a="out">Sign out</button><button class="vb" data-a="snd">Sound: ${window.MUTE?'Off':'On'}</button></div>`,
+support:()=>H('Support','We’re here to help')+['How do I change my username or email?|Open Settings, edit them, then tap Save profile. Use Sign out to log in as someone else.','Is this real money?|No. This is a design demo with made-up data, so nothing here is financial advice.','What does Explore AI Insights do?|It shows sample insights about your portfolio. Tap it again for the next one.'].map(f=>`<details class="fq"><summary>${f.split('|')[0]}</summary><p>${f.split('|')[1]}</p></details>`).join('')+`<div class="rw" style="margin-top:18px"><input class="vi" id="sm" placeholder="Write us a message…"><button class="vb on" data-a="send">Send</button></div>`,
 tools:()=>H('Tools','Growth calculator')+'<div id="calc">'+SL('c1','Starting amount',1000,50000,5000,500)+SL('c2','Monthly contribution',0,2000,200,50)+SL('c3','Years',1,30,10,1)+SL('c4','Expected yearly return',1,15,8,1)+'<div class="kc" style="margin-top:20px"><div class="vs">Future value</div><div id="cout" style="font-size:32px;font-weight:600;margin:4px 0"></div><div class="tr"><i id="cbar"></i></div><div class="rw vs"><span>You invest <b id="cinv" style="color:#fff"></b></span><span>Growth <b id="cgain" class="g"></b></span></div></div></div>'};
 function bars(k){const a=AD[k];$('#ab').innerHTML='<div style="display:flex;align-items:flex-end;gap:10px;height:200px">'+a.map(v=>`<div style="flex:1;text-align:center;font-size:11px"><span class="${v>=0?'g':'r'}">${v>0?'+':'−'}${Math.abs(v)}</span><i style="display:block;margin-top:4px;height:${(v+5)*16}px;border-radius:6px 6px 0 0;background:${v>=0?'linear-gradient(#d79bd0,#684c64)':'linear-gradient(#ff8aa0,#7a3042)'}"></i></div>`).join('')+'</div>'}
 function calc(){const g=i=>+$('#'+i).value,P0=g('c1'),m=g('c2'),r=g('c4')/1200,n=12*g('c3'),f=Math.pow(1+r,n),fv=P0*f+m*((f-1)/r),inv=P0+m*n;[['c1','$',''],['c2','$',''],['c3','',' yrs'],['c4','','%']].forEach(([i,a,b])=>$('#'+i+'v').textContent=a+g(i).toLocaleString('en-US')+b);$('#cout').textContent=money(fv);$('#cinv').textContent=money(inv);$('#cgain').textContent='+'+money(fv-inv);$('#cbar').style.width=(inv/fv*100)+'%'}
@@ -215,7 +215,7 @@ const AFTER={analysis:()=>bars('1Y'),tools:calc},NAV={portfolio:'nPort',analysis
 const MAP={nDash:null,tWallet:null,nPort:'portfolio',nAna:'analysis',nMar:'market',tMarket:'market',nCom:'community',nSet:'settings',gear:'settings',nSup:'support',tTools:'tools',see:'portfolio',arr:'portfolio'};
 function openV(v,quiet){if(quiet){V.innerHTML=VIEWS[v]();AFTER[v]&&AFTER[v]();return}pop.classList.remove('show');if(!v){V.classList.remove('show');on('side','nDash');on('tabs','tWallet');return}V.innerHTML=VIEWS[v]();V.classList.remove('show');void V.offsetWidth;V.classList.add('show');on('side',NAV[v]||'');on('tabs',v=='market'?'tMarket':v=='tools'?'tTools':'tWallet');AFTER[v]&&AFTER[v]()}
 const ACT={msg:b=>msg(b.dataset.m),like:b=>{const p=POSTS[+b.dataset.i];p.l=!p.l;openV('community',1)},post:()=>{const v=$('#pi').value.trim();if(v){POSTS.unshift({n:U.name,t:v,c:0});openV('community',1);msg('Posted')}},ar:b=>{bars(b.dataset.k);V.querySelectorAll('[data-a=ar]').forEach(x=>x.classList.toggle('on',x==b))},cat:b=>{MKT=b.dataset.k;openV('market',1)},save:()=>{setU($('#sn').value,$('#si').value);msg('Profile updated')},snd:b=>{window.MUTE=!window.MUTE;b.textContent='Sound: '+(window.MUTE?'Off':'On')},send:()=>{$('#sm').value='';msg('Message sent (demo)')}};
-pop.innerHTML='<div class="rw"><b>Notifications</b><button class="vb" data-a="read">Mark all read</button></div><div class="ni">NVDA is up 2.12% today</div><div class="ni">Your weekly report is ready</div><div class="ni" style="border:0">Welcome to Helios 💜</div>';ACT.read=()=>{dot.style.display='none';msg('All caught up')};
+pop.innerHTML='<div class="rw"><b>Notifications</b><button class="vb" data-a="read">Mark all read</button></div><div class="ni">NVDA is up 2.12% today</div><div class="ni">Your weekly report is ready</div><div class="ni" style="border:0">Welcome to Helios 💜</div>';ACT.out=()=>{try{localStorage.removeItem('helios_u')}catch(e){}location.href=location.pathname};ACT.read=()=>{dot.style.display='none';msg('All caught up')};
 function reply(t){t=t.toLowerCase();return /nvda|nvidia/.test(t)?'NVDA is your 2nd-largest holding at 27.8% and is up 2.12% today. Demo data, not financial advice.':/risk|safe/.test(t)?'Your portfolio volatility is 12.1%, which is moderate. Spreading across more sectors could lower it.':/best|top|gain/.test(t)?'Spotify leads your watchlist at +16.31%, followed by Amazon at +8.11%.':/buy|sell|trade/.test(t)?'I can’t place trades, but I can walk through the pros and cons of any holding.':'Quick take: your portfolio is up 3.1% overall, led by Spotify (+16.31%). Ask me about risk, a stock, or your best performer.'}
 function ask(t){const a=reply(t);ans.innerHTML='<div class="vs">helios.ai</div><div id="at" style="font-size:14px;line-height:1.5;margin-top:6px"></div>';ans.classList.add('show');let i=0;clearInterval(AT);AT=setInterval(()=>{i+=2;$('#at').textContent=a.slice(0,i);if(i>=a.length)clearInterval(AT)},18)}
 q.addEventListener('focus',()=>{const b=$('#srch');b.classList.remove('fx');void b.offsetWidth;b.classList.add('fx');snd()});
@@ -229,8 +229,8 @@ document.addEventListener('click',e=>{const t=e.target,b=t.closest('.btn,.vb'),i
  if(id=='wgo')go()});
 document.addEventListener('input',e=>{if(e.target.closest('#calc'))calc()});
 document.addEventListener('keydown',e=>{if(e.key=='Escape'){openV(null);ans.classList.remove('show')}if(e.key=='Enter'&&e.target.id.startsWith('w')&&e.target.tagName=='INPUT')go()});
-function go(){setU($('#wnm').value,$('#wid').value);wel.style.display='none'}
-wel.innerHTML='<div class="wc"><div style="font-size:12px;letter-spacing:4px;color:#d79bd0">HELIOS INVESTMENTS</div><div style="font-size:30px;font-weight:600;margin:10px 0 4px">Welcome 👋</div><div class="vs" style="margin-bottom:18px">Tell us who’s visiting and we’ll personalise your dashboard.</div><input class="vi" id="wnm" placeholder="Your name" style="margin-bottom:10px"><input class="vi" id="wid" placeholder="Your ID or handle (optional)" style="margin-bottom:18px"><button class="vb on btn2" id="wgo" style="width:100%;padding:13px">Enter dashboard</button></div>';
-(function(){const P=new URLSearchParams(location.search);let sv=null;try{sv=JSON.parse(localStorage.getItem('helios_u'))}catch(e){}
- if(P.get('name')){setU(P.get('name'),P.get('id'));wel.style.display='none'}else if(sv&&sv.name){setU(sv.name,sv.id);wel.style.display='none'}else setU('Guest','')})();
+function go(){const u=$('#wnm').value.trim(),m=$('#wid').value.trim(),er=$('#werr');if(!/^[A-Za-z0-9._-]{2,24}$/.test(u)){er.textContent='Enter a username: 2 to 24 letters, numbers, . _ -';return}if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(m)){er.textContent='Enter a valid email address';return}setU(u,m);wel.style.display='none';msg('Signed in as '+u)}
+wel.innerHTML='<div class="wc"><div style="font-size:12px;letter-spacing:4px;color:#d79bd0">HELIOS INVESTMENTS</div><div style="font-size:30px;font-weight:600;margin:10px 0 4px">Sign in</div><div class="vs" style="margin-bottom:18px">Enter your username and email to open your dashboard.</div><input class="vi" id="wnm" placeholder="Username" autocomplete="username" style="margin-bottom:10px"><input class="vi" id="wid" placeholder="Email address" type="email" autocomplete="email" style="margin-bottom:8px"><div id="werr" class="r" style="font-size:12px;min-height:18px;margin-bottom:8px"></div><button class="vb on" id="wgo" style="width:100%;padding:13px">Sign in</button><div class="vs" style="margin-top:14px;text-align:center">Demo sign-in: no password needed. Your details stay in this browser only.</div></div>';
+(function(){const P=new URLSearchParams(location.search);if(P.get('reset')){try{localStorage.removeItem('helios_u')}catch(e){}}let sv=null;try{sv=JSON.parse(localStorage.getItem('helios_u'))}catch(e){}
+ if(P.get('name')){setU(P.get('name'),P.get('id'));wel.style.display='none'}else setU('Guest','')})();
 </script></body></html>
