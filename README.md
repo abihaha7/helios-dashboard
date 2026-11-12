@@ -34,8 +34,8 @@ A dark, glass-style investment dashboard built with plain HTML, CSS and JavaScri
 Add a name and ID to the end of the page address and it opens ready for that person:
 
 ```
-https://abihaha7.github.io/helios-dashboard/?name=Sara%20Khan&id=sara.codes
-```
+[https://abihaha7.github.io/helios-dashboard/?name=Abiha%20KHameed&id=s.codes
+](https://abihaha7.github.io/helios-dashboard/?name=Abiha%20Hameed&id=abihaha7)```
 
 If no name is in the link, a welcome box asks for one. Visitors can also change it later in **Settings**.
 
